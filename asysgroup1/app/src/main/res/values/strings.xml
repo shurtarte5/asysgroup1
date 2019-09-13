@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">asysgroup1</string>
+    <string name="addbutton">Agregar</string>
+    <string name="searchbutton">Buscar</string>
+    <string name="deletebutton">Eliminar</string>
+    <string name="editbutton">Editar</string>
+    <string name="edittextcodecounty">Codigo</string>
+    <string name="edittextnamecounry">Nombre</string>
+    <string name="textviewtitle">Pais</string>
+
+</resources>

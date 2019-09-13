@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_add"
+        android:icon="@drawable/ic_add_circle"
+        android:title="Agregar"/>
+
+    <item
+        android:id="@+id/nav_country_list"
+        android:icon="@drawable/ic_list_black"
+        android:title="Pais"/>
+
+    <item
+        android:id="@+id/nav_dep_list"
+        android:icon="@drawable/ic_list_black"
+        android:title="Depto"/>
+
+</menu>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light">
+
+    <EditText
+        android:id="@+id/edittext_code"
+        android:inputType="number"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:hint="@string/edittextcodecounty"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button_add"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editext_name"
+        android:inputType="text"
+        android:layout_width="174dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="52dp"
+        android:hint="@string/edittextnamecounry"
+        app:layout_constraintStart_toStartOf="@+id/edittext_code"
+        app:layout_constraintTop_toBottomOf="@+id/edittext_code" />
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="88dp"
+        android:text="@string/addbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/searchbutton"
+        app:layout_constraintEnd_toEndOf="@+id/button_add"
+        app:layout_constraintTop_toBottomOf="@+id/button_add" />
+
+    <Button
+        android:id="@+id/button_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="88dp"
+        android:text="@string/editbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_search" />
+
+    <Button
+        android:id="@+id/button_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/deletebutton"
+        app:layout_constraintEnd_toEndOf="@+id/button_edit"
+        app:layout_constraintTop_toBottomOf="@+id/button_edit" />
+
+    <TextView
+
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:textSize="25sp"
+        android:text="@string/textviewtitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
